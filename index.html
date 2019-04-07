@@ -10,14 +10,43 @@
 
     </head>
     <body>
-        <ul class="nav">
-            <li><a href="https://mail.google.com">Gmail</a></li>
-            <li><a href="https://www.google.com.ng/imghp?hl=en&tab=wi">Images</a></li>
-            <li><a href="https://www.google.com.ng/intl/en/about/products?tab=wh"></a></li>
-            <li><a href="https://lh3.googleusercontent.com/-5vW9WQqpBD0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdFy4w2vtBzjwUGvJRKIHuQTPqXnQ/s32-c-mo/photo.jpg">Profile Image</a></li>
-
+        <!--The Navigation Bar-->
+        <ul class="nav_bar">
+            <li class="nav-links" id="gmail"><a href="https://mail.google.com">Gmail</a></li>
+            <li class="nav-links"><a href="https://www.google.com.ng/imghp?hl=en&tab=wi">Images</a></li>
+            <li id="sign_in"><a href="#">Sign In</a></li>
 
         </ul>
-
+        <!--Google Image-->
+        <div class="google"><a href="#" id="google_logo"><img src="img/google_logo.png" alt="Google_logo"/></a>
+            
+        </div>
+        <!--Search Form-->
+        <div class="form">
+            <form>
+                <label for="form-search"></label>
+                <input type="text" id="form-search">
+            </form>
+        </div>
+        <!--BUTTONS-->
+        <div class="buttons">
+            <button>
+            <input type="submit" value="Google Search" id="google_search">
+            <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+            </button>
+            <p>Google Offered In: <a href="#">Igbo</a></p> 
+        </div>
+        <!--FOOTER-->
+        <footer>
+            <ul class="footer_left">
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <ul class="footer_right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+        </footer>
     </body>
 </html>

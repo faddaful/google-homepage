@@ -73,8 +73,8 @@ li.nav_links a:hover {
 }
 /*FOOTER*/
 footer {
-    background: #f2f2f2;
-    border-top: solid 2px #e4e4e4;
+    background-color: #f3f2f2;
+    border-top: solid 0.5px #5c5b5b;
     bottom: 0;
     padding-bottom: 0;
     width: 100%;
@@ -82,22 +82,30 @@ footer {
 footer ul li {
     display: -webkit-inline-box;
     color: #666666;
-    font-size: 14px;
-    padding: 13px;
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 27px;
+    margin: 0px;
 }
-footer ul {
+.footer-left {
     float: left;
-    padding: 1px;
-}
-footer ul a:hover {
-    text-decoration: underline;
 }
 .footer-right {
     float: right;
+}
+ /*footer ul {
+    float: left;
+    padding: 1px;
+} */
+footer ul a:hover {
+    text-decoration: underline;
 }
 /*MEDIA OUTPUT */
 @media screen and (max-width: 400pxx)
 
 li.nav-links a {
     
+}
+google_logo {
+
 }

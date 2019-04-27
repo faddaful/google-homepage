@@ -1,3 +1,5 @@
-My own version of Google Homepage from the odin project.
+Google Homepage from the odin project.
 
-Don't laugh at the result, I'm just getting started.
+From The Odin Project's [curriculum]
+Learn more here...
+(http://www.theodinproject.com/courses/web-development-101/lessons/html-css)

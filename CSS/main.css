@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif, serif
+    font-family: "Roboto", sans-serif, serif;
 }
 header {
     width: 100%;
@@ -29,7 +29,7 @@ ul {
     font-weight: bold;
 }
 .nav_links {
-    color: #404040
+    color: #404040;
 }
 a {
     text-decoration: none;
@@ -51,7 +51,7 @@ li.nav_links a:hover {
     margin: 0 auto;
     clear: both;
     padding-top: 112px;
-    padding bottom: 20px
+    padding-bottom: 20px;
 }
 /* FORM*/
 .form {
@@ -79,11 +79,8 @@ li.nav_links a:hover {
     margin-bottom: none;
     cursor: pointer;
 }
-div .button:hover{
-    
-}
 .button #google_search {
-    background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1)
+    background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
     border-radius: 4px;
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
@@ -133,7 +130,7 @@ footer ul li {
     color: #666666;
     font-size: small;
     padding: 10px;
-    margin: 0px;?*/
+    margin: 0px;
 }
 .footer_left {
     float: left;
@@ -152,11 +149,3 @@ footer ul a:hover {
     text-decoration: underline;
 }
 /*MEDIA OUTPUT */
-@media screen and (max-width: 400pxx)
-
-li.nav-links a {
-    
-}
-google_logo {
-
-}
